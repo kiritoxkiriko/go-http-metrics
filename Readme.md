@@ -1,4 +1,6 @@
 # go-http-metrics [![Build Status][github-actions-image]][github-actions-url] [![Go Report Card][goreport-image]][goreport-url] [![GoDoc][godoc-image]][godoc-url]
+A fork of [slok/go-http-metrics](https://github.com/slok/go-http-metrics) with some additional features.
+* cherry picked commit 115aa248a8bf0aae666c8a14accb37e995c9672d into v0.11.0
 
 go-http-metrics knows how to measure http metrics in different metric formats and Go HTTP framework/libs. The metrics measured are based on [RED] and/or [Four golden signals], follow standards and try to be measured in a efficient way.
 

@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.11.1] - 2024-07-10
+
+### Changed
+
+- Cherry picked commit 115aa248a8bf0aae666c8a14accb37e995c9672d (user gin.Context as URLPath) from master.
+
 ## [0.11.0] - 2023-10-20
 
 ### Changed

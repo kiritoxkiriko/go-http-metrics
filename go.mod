@@ -1,4 +1,4 @@
-module github.com/slok/go-http-metrics
+module github.com/kirikoxkiriko/go-http-metrics
 
 go 1.21
 
