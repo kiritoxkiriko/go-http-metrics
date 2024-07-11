@@ -7,9 +7,9 @@ import (
 	gorestful "github.com/emicklei/go-restful/v3"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	gorestfulmiddleware "github.com/slok/go-http-metrics/middleware/gorestful"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	gorestfulmiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/gorestful"
 )
 
 // GorestfulMiddleware shows how you would create a default middleware factory and use it

@@ -10,9 +10,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	echomiddleware "github.com/slok/go-http-metrics/middleware/echo"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	echomiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/echo"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	fasthttpMiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/fasthttp"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	fasthttpMiddleware "github.com/slok/go-http-metrics/middleware/fasthttp"
 	"github.com/valyala/fasthttp"
 )
 

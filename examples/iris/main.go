@@ -8,10 +8,10 @@ import (
 	"syscall"
 
 	"github.com/kataras/iris/v12"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	irismiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/iris"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	irismiddleware "github.com/slok/go-http-metrics/middleware/iris"
 )
 
 const (

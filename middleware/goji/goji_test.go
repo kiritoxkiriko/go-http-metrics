@@ -12,10 +12,10 @@ import (
 	"goji.io"
 	"goji.io/pat"
 
-	mmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
-	"github.com/slok/go-http-metrics/metrics"
-	"github.com/slok/go-http-metrics/middleware"
-	gojimiddleware "github.com/slok/go-http-metrics/middleware/goji"
+	mmetrics "github.com/kiritoxkiriko/go-http-metrics/internal/mocks/metrics"
+	"github.com/kiritoxkiriko/go-http-metrics/metrics"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	gojimiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/goji"
 )
 
 func TestMiddleware(t *testing.T) {

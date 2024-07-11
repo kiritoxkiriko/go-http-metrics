@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware/std"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
 )
 
 const (

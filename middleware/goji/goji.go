@@ -4,8 +4,8 @@ package goji
 import (
 	"net/http"
 
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware/std"
 )
 
 // Handler returns a Goji measuring middleware.

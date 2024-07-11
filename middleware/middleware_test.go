@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mockmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
-	mockmiddleware "github.com/slok/go-http-metrics/internal/mocks/middleware"
-	"github.com/slok/go-http-metrics/metrics"
-	"github.com/slok/go-http-metrics/middleware"
+	mockmetrics "github.com/kiritoxkiriko/go-http-metrics/internal/mocks/metrics"
+	mockmiddleware "github.com/kiritoxkiriko/go-http-metrics/internal/mocks/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/metrics"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
 )
 
 func TestMiddlewareMeasure(t *testing.T) {

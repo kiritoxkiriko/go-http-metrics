@@ -5,7 +5,7 @@ package metrics
 import (
 	context "context"
 
-	metrics "github.com/slok/go-http-metrics/metrics"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics"
 	mock "github.com/stretchr/testify/mock"
 
 	time "time"

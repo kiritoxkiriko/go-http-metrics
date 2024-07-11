@@ -7,10 +7,10 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	httproutermiddleware "github.com/slok/go-http-metrics/middleware/httprouter"
-	stdmiddleware "github.com/slok/go-http-metrics/middleware/std"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	httproutermiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/httprouter"
+	stdmiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/std"
 )
 
 // HTTPRouterMiddlewareByHandler shows how you would create a default middleware factory

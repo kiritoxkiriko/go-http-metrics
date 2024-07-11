@@ -3,10 +3,10 @@ package fasthttp_test
 import (
 	"testing"
 
-	mmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
-	"github.com/slok/go-http-metrics/metrics"
-	"github.com/slok/go-http-metrics/middleware"
-	fasthttpMiddleware "github.com/slok/go-http-metrics/middleware/fasthttp"
+	mmetrics "github.com/kiritoxkiriko/go-http-metrics/internal/mocks/metrics"
+	"github.com/kiritoxkiriko/go-http-metrics/metrics"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	fasthttpMiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/fasthttp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/valyala/fasthttp"

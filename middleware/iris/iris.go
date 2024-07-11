@@ -6,7 +6,7 @@ import (
 
 	"github.com/kataras/iris/v12"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
 )
 
 // Handler returns a Iris measuring middleware.

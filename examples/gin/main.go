@@ -8,10 +8,10 @@ import (
 	"syscall"
 
 	"github.com/gin-gonic/gin"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	ginmiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/gin"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	ginmiddleware "github.com/slok/go-http-metrics/middleware/gin"
 )
 
 const (

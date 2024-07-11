@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
 )
 
 // Handler returns an measuring standard http.Handler.

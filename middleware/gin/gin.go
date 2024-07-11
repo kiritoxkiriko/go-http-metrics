@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
 )
 
 // Handler returns a Gin measuring middleware.

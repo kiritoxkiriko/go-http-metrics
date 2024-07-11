@@ -8,10 +8,10 @@ import (
 	"syscall"
 
 	gorestful "github.com/emicklei/go-restful/v3"
+	metrics "github.com/kiritoxkiriko/go-http-metrics/metrics/prometheus"
+	"github.com/kiritoxkiriko/go-http-metrics/middleware"
+	gorestfulmiddleware "github.com/kiritoxkiriko/go-http-metrics/middleware/gorestful"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	gorestfulmiddleware "github.com/slok/go-http-metrics/middleware/gorestful"
 )
 
 const (

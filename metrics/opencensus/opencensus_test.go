@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opencensus.io/stats/view"
 
-	"github.com/slok/go-http-metrics/metrics"
-	ocmetrics "github.com/slok/go-http-metrics/metrics/opencensus"
+	"github.com/kiritoxkiriko/go-http-metrics/metrics"
+	ocmetrics "github.com/kiritoxkiriko/go-http-metrics/metrics/opencensus"
 )
 
 func TestOpenCensusRecorder(t *testing.T) {
